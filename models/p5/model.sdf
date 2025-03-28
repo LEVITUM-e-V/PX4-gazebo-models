@@ -146,7 +146,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <scale>0.002 0.002 0.002</scale>
+            <scale>0.001 0.001 0.001</scale>
             <uri>model://p5/meshes/Prop_clockwise.stl</uri>
           </mesh>
         </geometry>
@@ -210,7 +210,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <scale>0.002 0.002 0.002</scale>
+            <scale>0.001 0.001 0.001</scale>
             <uri>model://p5/meshes/Prop_counterclockwise.stl</uri>
           </mesh>
         </geometry>
@@ -274,7 +274,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <scale>0.002 0.002 0.002</scale>
+            <scale>0.001 0.001 0.001</scale>
             <uri>model://p5/meshes/Prop_counterclockwise.stl</uri>
           </mesh>
         </geometry>
@@ -338,7 +338,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <scale>0.002 0.002 0.002</scale>
+            <scale>0.001 0.001 0.001</scale>
             <uri>model://p5/meshes/Prop_clockwise.stl</uri>
           </mesh>
         </geometry>
@@ -402,7 +402,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <scale>0.002 0.002 0.002</scale>
+            <scale>0.001 0.001 0.001</scale>
             <uri>model://p5/meshes/Prop_clockwise.stl</uri>
           </mesh>
         </geometry>
@@ -466,7 +466,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <scale>0.002 0.002 0.002</scale>
+            <scale>0.001 0.001 0.001</scale>
             <uri>model://p5/meshes/Prop_counterclockwise.stl</uri>
           </mesh>
         </geometry>
