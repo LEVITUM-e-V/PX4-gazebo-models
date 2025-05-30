@@ -41,7 +41,7 @@
           </friction>
         </surface>
       </collision>
-      <visual name='base_link_visual'> 
+      <visual name='base_link_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
@@ -764,7 +764,7 @@
       <cda_stall>0.8362</cda_stall>
       <cma_stall>0</cma_stall>
       <cp>0.57 0.28 0</cp>
-      <area>0.2629</area>
+      <area>0.5</area>
       <air_density>1.2</air_density>
       <forward>0.999 0 0.0349</forward>
       <upward>0 0 1</upward>
@@ -788,7 +788,7 @@
       <cda_stall>0.8362</cda_stall>
       <cma_stall>0</cma_stall>
       <cp>0.57 -0.28 0</cp>
-      <area>0.2628</area>
+      <area>0.5</area>
       <air_density>1.2</air_density>
       <forward>0.999 0 0.0349</forward>
       <upward>0 0 1</upward>
@@ -813,7 +813,7 @@
       <cda_stall>0.8362</cda_stall>
       <cma_stall>0</cma_stall>
       <cp>-0.38 0.5 0</cp>
-      <area>0.6105</area>
+      <area>1</area>
       <air_density>1.2</air_density>
       <forward>1 0 0</forward>
       <upward>0 0 1</upward>
@@ -837,7 +837,7 @@
       <cda_stall>0.8362</cda_stall>
       <cma_stall>0</cma_stall>
       <cp>-0.38 -0.5 0</cp>
-      <area>0.6105</area>
+      <area>1</area>
       <air_density>1.2</air_density>
       <forward>1 0 0</forward>
       <upward>0 0 1</upward>
@@ -853,7 +853,7 @@
 
 <!-- Motor Models -->
     <!-- Motor 3 (front left) -->
-    <plugin 
+    <plugin
         filename="gz-sim-multicopter-motor-model-system"
         name="gz::sim::systems::MulticopterMotorModel">
       <jointName>rotor_3_joint</jointName>
@@ -872,8 +872,8 @@
       <motorType>velocity</motorType>
     </plugin>
     <!-- Motor 5 (front right) -->
-    <plugin 
-        filename="gz-sim-multicopter-motor-model-system" 
+    <plugin
+        filename="gz-sim-multicopter-motor-model-system"
         name="gz::sim::systems::MulticopterMotorModel">
       <jointName>rotor_5_joint</jointName>
       <linkName>rotor_5</linkName>
