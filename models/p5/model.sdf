@@ -46,7 +46,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://p5/meshes/levitum_proto5_body.stl</uri>
+            <uri>model://p5/meshes/Rumpf.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -147,7 +147,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>model://p5/meshes/Prop_clockwise.stl</uri>
+            <uri>model://p5/meshes/Propeller_CW.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -211,7 +211,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>model://p5/meshes/Prop_counterclockwise.stl</uri>
+            <uri>model://p5/meshes/Propeller_CCW.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -275,7 +275,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>model://p5/meshes/Prop_counterclockwise.stl</uri>
+            <uri>model://p5/meshes/Propeller_CCW.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -339,7 +339,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>model://p5/meshes/Prop_clockwise.stl</uri>
+            <uri>model://p5/meshes/Propeller_CW.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -403,7 +403,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>model://p5/meshes/Prop_clockwise.stl</uri>
+            <uri>model://p5/meshes/Propeller_CW.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -467,7 +467,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>model://p5/meshes/Prop_counterclockwise.stl</uri>
+            <uri>model://p5/meshes/Propeller_CCW.stl</uri>
           </mesh>
         </geometry>
         <material>
