@@ -21,7 +21,7 @@
         </inertia>
       </inertial>
       <collision name='base_link_collision'> <!-- Collision geometry for base_link -->
-        <pose>0.6 0 -0.045 0 0 0</pose> <!-- Frame location of collision box relative to base_link frame -->
+        <pose>0 0 0 0 0 0</pose> <!-- Frame location of collision box relative to base_link frame -->
         <geometry>
           <box>
             <size>1.45 1.75 0.15</size>
@@ -42,10 +42,10 @@
         </surface>
       </collision>
       <visual name='base_link_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>1.14 0 0.1 0 0 3.1415</pose>
         <geometry>
           <mesh>
-            <scale>1 1 1</scale>
+            <scale>0.001 0.001 0.001</scale>
             <uri>model://p5/meshes/Rumpf.stl</uri>
           </mesh>
         </geometry>
@@ -112,7 +112,7 @@
 <!-- Propellers -->
     <!-- Propeller 3 (front left) -->
     <link name='rotor_3'>
-      <pose>1.007056 1.153139 0.095689 0 -0.087 0</pose>
+      <pose>1.007056 1.143139 0.135689 0 -0.087 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.3</mass> <!-- This mass seems to be wrong -->
@@ -143,7 +143,7 @@
         </surface>
       </collision>
       <visual name='rotor_3_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 1.57075 0 0</pose>
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
@@ -176,7 +176,7 @@
     </joint>
     <!-- Propeller 5 (front right) -->
     <link name='rotor_5'>
-      <pose>1.007056 -1.153139 0.095689 0 -0.087 0</pose>
+      <pose>1.007056 -1.143139 0.135689 0 -0.087 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.3</mass>
@@ -207,7 +207,7 @@
         </surface>
       </collision>
       <visual name='rotor_5_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0  1.57075 0 0</pose>
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
@@ -240,7 +240,7 @@
     </joint>
     <!-- Propeller 2 (middle left) -->
     <link name='rotor_2'>
-      <pose>-0.167414 0.642343 0.134689 -0.087 0 0</pose>
+      <pose>-0.127414 0.707343 0.150689 -0.087 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.3</mass>
@@ -271,7 +271,7 @@
         </surface>
       </collision>
       <visual name='rotor_2_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 1.57075 0 0</pose>
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
@@ -304,7 +304,7 @@
     </joint>
     <!-- Propeller 1 (middle right) -->
     <link name='rotor_1'>
-      <pose>-0.167414 -0.642343 0.134689 0.087 0 0</pose>
+      <pose>-0.127414 -0.707343 0.150689 0.087 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.3</mass>
@@ -335,7 +335,7 @@
         </surface>
       </collision>
       <visual name='rotor_1_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 1.57075 0 0</pose>
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
@@ -368,7 +368,7 @@
     </joint>
     <!-- Propeller 6 (rear left) -->
     <link name='rotor_6'>
-      <pose>-1.075798 0.642343 0.134689 0.087 0 0</pose>
+      <pose>-1.135798 0.69 0.150689 0.087 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.3</mass>
@@ -399,7 +399,7 @@
         </surface>
       </collision>
       <visual name='rotor_6_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 1.57057 0 0</pose>
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
@@ -432,7 +432,7 @@
     </joint>
     <!-- Propeller 4 (rear right) -->
     <link name='rotor_4'>
-      <pose>-1.075798 -0.642343 0.134689 -0.087 0 0</pose>
+      <pose>-1.135798 -0.69 0.150689 -0.087 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.3</mass>
@@ -463,7 +463,7 @@
         </surface>
       </collision>
       <visual name='rotor_4_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 1.57075 0 0</pose>
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
@@ -497,7 +497,7 @@
 
     <!-- Pusher Prop 7 -->
     <link name='rotor_puller'>
-      <pose>-1.019927 0 0.194 1.57 0 1.57</pose>
+      <pose>-1.073 0 0.1 1.57 0 1.57</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.3</mass>
@@ -528,7 +528,7 @@
         </surface>
       </collision>
       <visual name='rotor_puller_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 0.785375 1.57057 0</pose>
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
@@ -545,7 +545,7 @@
       <self_collide>0</self_collide>
     </link>
     <joint name='rotor_puller_joint' type='revolute'>
-      <pose>0.0 0 0.0 0 -1.57 0</pose>
+      <pose>0.0 0 0.0 0 0 0</pose>
       <child>rotor_puller</child>
       <parent>base_link</parent>
       <axis>
@@ -563,7 +563,7 @@
 
 <!-- Control Surfaces -->
     <link name="left_aileron">
-      <pose>0.05 0.59 0.065 0 0 0</pose>
+      <pose>-0.760 1.30 0.125 0 0 0</pose>
       <inertial>
         <mass>0.00000001</mass>
         <inertia>
@@ -576,7 +576,7 @@
         </inertia>
       </inertial>
       <visual name='left_aileron_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 0 0 -0.035</pose>
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
@@ -590,7 +590,7 @@
       </visual>
     </link>
     <link name="right_aileron">
-      <pose>0.05 -0.59 0.065 0 0 0</pose>
+      <pose>-0.760 -1.30 0.125 0 0 0</pose>
       <inertial>
         <mass>0.00000001</mass>
         <inertia>
@@ -603,7 +603,7 @@
         </inertia>
       </inertial>
       <visual name='right_aileron_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 0 0 0.035</pose>
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
@@ -628,9 +628,9 @@
           <izz>0.000001</izz>
         </inertia>
       </inertial>
-      <pose>1.07 0.32935 0.061 0 0 0</pose>
+      <pose>0.86 0.6 0.076 0 0 0</pose>
       <visual name='left_elevon_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 0 0 -0.06</pose>
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
@@ -655,9 +655,9 @@
           <izz>0.000001</izz>
         </inertia>
       </inertial>
-      <pose>1.07 -0.32935 0.061 0 0 0</pose>
+      <pose>0.86 -0.6 0.076 0 0 0</pose>
       <visual name='right_elevon_visual'>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>0 0 0 0 0 0.06</pose>
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
