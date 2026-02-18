@@ -1,6 +1,6 @@
-# PX4-gazebo-models (LevITum Fork)
+# PX4-gazebo-models (LEVITUM Fork)
 
-This is a fork of [PX4/PX4-gazebo-models](https://github.com/PX4/PX4-gazebo-models) maintained by LevITum. We use this fork to develop and maintain custom Gazebo simulation models for our prototypes:
+This is a fork of [PX4/PX4-gazebo-models](https://github.com/PX4/PX4-gazebo-models) maintained by LEVITUM. We use this fork to develop and maintain custom Gazebo simulation models for our prototypes:
 
 - **p2** — Prototype 2
 - **p4_1** — Prototype 4.1
