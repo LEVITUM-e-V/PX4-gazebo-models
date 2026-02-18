@@ -1,4 +1,40 @@
-# PX4-gazebo-models
+# PX4-gazebo-models (LevITum Fork)
+
+This is a fork of [PX4/PX4-gazebo-models](https://github.com/PX4/PX4-gazebo-models) maintained by LevITum. We use this fork to develop and maintain custom Gazebo simulation models for our prototypes:
+
+- **p2** — Prototype 2
+- **p4_1** — Prototype 4.1
+- **p5** — Prototype 5
+
+These models can be found in the `models/` directory alongside the upstream PX4 models.
+
+## Submodule in PX4-Autopilot
+
+This repository is included as a **git submodule** in our PX4-Autopilot fork at:
+
+```
+Tools/simulation/gz
+```
+
+When you make changes to a model in this repository, the submodule reference in PX4-Autopilot must be updated to point to the new commit. Otherwise PX4-Autopilot will continue using the old version of the model.
+
+To update the submodule in PX4-Autopilot:
+
+```bash
+cd PX4-Autopilot
+git submodule update --remote Tools/simulation/gz
+git add Tools/simulation/gz
+git commit -m "Update PX4-gazebo-models submodule"
+git push
+```
+
+---
+
+## Upstream README
+
+*The following is the original upstream documentation.*
+
+# PX4-gazebo-models (Upstream)
 Models and worlds to be used in local Fuel instances and kept up to date in [app.gazebosim.org/PX4](https://app.gazebosim.org/PX4).
 
 ## Starting GZ simulation
